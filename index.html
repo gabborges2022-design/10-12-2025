@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Você É Meu Lar 💜</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- FUNDO -->
+
+<div id="stars"></div>
+<div id="hearts"></div>
+<div id="petals"></div>
+
+<!-- INTRO CINEMATOGRÁFICA -->
+
+<section id="intro">
+
+<div class="intro-content">
+
+<h1 id="introTitle"></h1>
+
+<p id="introText"></p>
+
+<button id="startExperience">
+✨ Entrar
+</button>
+
+</div>
+
+</section>
+
+<!-- PLAYER -->
+
+<div id="music-player">
+
+<div class="player-header">
+
+<div class="player-info">
+<h3 id="song-title">
+Join Me In Death
+</h3>
+
+<span>
+Tocando agora
+</span>
+</div>
+
+<div class="player-header-right">
+<span id="time-display">0:00 / 0:00</span>
+<button id="minimizeBtn" title="Minimizar">−</button>
+</div>
+
+</div>
+
+<audio id="audio"></audio>
+
+<div class="controls">
+
+<button id="prevBtn">⏮</button>
+<button id="playBtn">▶</button>
+<button id="nextBtn">⏭</button>
+
+</div>
+
+<input
+type="range"
+id="progress"
+value="0"
+min="0"
+max="100">
+
+<div id="playlist-container">
+
+<h4>Playlist</h4>
+
+<ul id="playlist">
+</ul>
+
+</div>
+
+</div>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<img
+src="img/buque.jpg"
+class="hero-image">
+
+<div class="hero-overlay">
+
+<h1>Gabi 💜</h1>
+
+<h2>
+Você é meu lar por onde eu andar.
+</h2>
+
+<p>
+
+Porque de alguma forma,
+
+você sempre foi o lugar onde eu consigo descansar.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- HISTÓRIA -->
+
+<section class="section">
+
+<h2>🌌 Entre Estrelas e Coincidências</h2>
+
+<p>
+Existem encontros que parecem planejados.
+</p>
+
+<p>
+O nosso começou por acaso.
+</p>
+
+<p>
+Um grupo de figurinhas.
+</p>
+
+<p>
+Um convite do Vilela.
+</p>
+
+<p>
+Um grupo de amigos.
+</p>
+
+<p>
+E uma garota que eu ainda não imaginava o quanto seria importante.
+</p>
+
+</section>
+
+<!-- EFEITO BORBOLETA -->
+
+<section class="section">
+
+<h2>🦋 O Efeito Borboleta</h2>
+
+<div class="butterfly">
+
+<div class="step">
+🐒 Grupo de figurinhas
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="step">
+👤 Vilela
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="step">
+💬 Grupo de amigos
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="step">
+🌙 Gabi
+</div>
+
+<div class="arrow">↓</div>
+
+<div class="step highlight">
+💜 Uma história que mudou tudo
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTADORES -->
+
+<section class="section">
+
+<h2>⏳ Nosso Tempo</h2>
+
+<div class="counter-container">
+
+<div class="counter-card">
+
+<h3>
+Desde que nos conhecemos
+</h3>
+
+<span id="knownDays">
+0
+</span>
+
+</div>
+
+<div class="counter-card">
+
+<h3>
+Desde 10/12/2025
+</h3>
+
+<span id="loveDays">
+0
+</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TIMELINE -->
+
+<section class="section">
+
+<h2>📖 Nossa História</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>Julho/2024</h3>
+
+<p>
+O começo de tudo.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Setembro/2025</h3>
+
+<p>
+Quando percebi que meus sentimentos tinham mudado.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>10/12/2025</h3>
+
+<p>
+O dia em que transformei sentimentos em palavras.
+</p>
+
+</div>
+
+<div class="timeline-item image">
+
+<img src="img/buque.jpg">
+
+<h3>26/01/2026</h3>
+
+<p>
+O dia das rosas brancas.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CARTAS -->
+
+<section class="section">
+
+<h2>💌 Cartinhas</h2>
+
+<div class="letters">
+
+<div class="envelope">
+
+<div class="envelope-title">
+
+✉️ O acaso mais bonito
+
+</div>
+
+<div class="letter-content">
+
+<p>
+Você entrou na minha vida de forma comum.
+Mas acabou se tornando extraordinária.
+</p>
+
+</div>
+
+</div>
+
+<div class="envelope">
+
+<div class="envelope-title">
+
+✉️ Pequenas Confianças
+
+</div>
+
+<div class="letter-content">
+
+<p>
+Uma das coisas que mais gosto em você é quando me permite conhecer partes suas que normalmente ficam escondidas.
+</p>
+
+<p>
+Todas as vezes em que você compartilhou algo difícil, algo pessoal ou algo que não contaria para qualquer pessoa, eu enxerguei isso como um presente.
+</p>
+
+</div>
+
+</div>
+
+<div class="envelope">
+
+<div class="envelope-title">
+
+✉️ O presente mais importante
+
+</div>
+
+<div class="letter-content">
+
+<p>
+Ao longo do tempo eu te dei flores, chocolates, pelúcias e outras lembranças.
+</p>
+
+<p>
+Mas olhando para trás, percebo que nenhuma delas era a parte mais importante.
+</p>
+
+<p>
+A parte importante sempre foi você.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- COISAS QUE LEMBRAM ELA -->
+
+<section class="section">
+
+<h2>🎮 Coisas que me lembram você</h2>
+
+<div class="memory-grid">
+
+<div class="memory-card">🎮 Valorant</div>
+<div class="memory-card">🎮 LoL</div>
+<div class="memory-card">🌾 Stardew Valley</div>
+<div class="memory-card">📖 Omori</div>
+<div class="memory-card">📝 Doki Doki</div>
+<div class="memory-card">🎸 Guitar Hero</div>
+<div class="memory-card">🦈 Reze</div>
+<div class="memory-card">🎵 Pierce The Veil</div>
+<div class="memory-card">💿 Misadventures</div>
+
+</div>
+
+</section>
+
+<!-- GALERIA -->
+
+<section class="section">
+
+<h2>📸 Galeria</h2>
+
+<div class="gallery">
+
+<img src="img/gabi1.jfif">
+<img src="img/gabi2.jfif">
+<img src="img/gabi3.jfif">
+<img src="img/gabi4.jfif">
+<img src="img/gabi5.jfif">
+<img src="img/gabicomcolarestrela.jfif">
+<img src="img/coracaozinhoeba.jfif">
+
+</div>
+
+</section>
+
+<!-- PETS -->
+
+<section class="section">
+
+<h2>🐶 Romeu & Amora</h2>
+
+<img
+src="img/romeuamora.jfif"
+class="pets">
+
+<p>
+Duas das coisas que mais me lembram você.
+</p>
+
+<div class="pet-card">
+
+<img src="img/romeu.jfif">
+
+<h3>Romeu</h3>
+
+<p>
+O cachorro que recebeu esse nome por causa de um filme que você gosta.
+</p>
+
+</div>
+
+</section>
+
+<!-- PIERCE -->
+
+<section class="section">
+
+<h2>🎸 Pierce The Veil</h2>
+
+<img
+src="img/pierce.jfif"
+class="pierce-img">
+
+<p>
+Algumas lembranças são pequenas.
+Mas carregam significados enormes.
+</p>
+
+</section>
+
+<!-- CONSTELAÇÃO -->
+
+<section class="section">
+
+<h2>⭐ Constelação da Gabi</h2>
+
+<div class="constellation">
+
+<div class="star-card">⭐ Reze</div>
+<div class="star-card">⭐ Valorant</div>
+<div class="star-card">⭐ Romeu</div>
+<div class="star-card">⭐ Amora</div>
+<div class="star-card">⭐ Pierce The Veil</div>
+<div class="star-card">⭐ Stardew Valley</div>
+
+</div>
+
+</section>
+
+<!-- MAPA -->
+
+<section class="section">
+
+<h2>🗺️ Unaí ↔ Uberaba</h2>
+
+<div class="map">
+
+📍 Unaí
+
+✨ ✨ 💜 ✨ ✨
+
+📍 Uberaba
+
+</div>
+
+<p>
+A distância mede quilômetros.
+Nunca conseguiu medir importância.
+</p>
+
+</section>
+
+<!-- FINAL -->
+
+<footer>
+
+<img
+src="img/buque.jpg"
+class="final-photo">
+
+<h2>
+Você é meu lar por onde eu andar.
+</h2>
+
+<p>
+
+Eu te amo e nunca vou te abandonar, eu sempre vou voltar pra você por que você é meu lar, desde que disse o que sinto não teve um dia que eu tenha duvidado de que você é a pessoa certa pra mim, eu quero crescer e evoluir como pessoa junto com você.
+
+</p>
+
+<h3>
+Com carinho,
+<br>
+Gabs 💜
+</h3>
+
+<p class="final-star">
+⭐ Você é minha constelação favorita.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
