@@ -45,19 +45,19 @@ typeTitle();
 const playlist = [
 {
 name:"Join Me In Death",
-file:"music/Join Me In Death.mp3"
+file:"music/join me in death.mp3"
 },
 {
 name:"Song For Isabelle",
-file:"music/Pierce The Veil - Song For Isabelle.mp3"
+file:"music/pierce the veil - song for isabelle.mp3"
 },
 {
 name:"Floral & Fading",
-file:"music/Floral & Fading.mp3"
+file:"music/floral & fading.mp3"
 },
 {
 name:"Even When I'm Not With You",
-file:"music/Pierce The Veil - Even When I'm Not With You.mp3"
+file:"music/pierce the veil - even when i'm not with you.mp3"
 },
 {
 name:"Safe In Your Arms",
@@ -65,19 +65,19 @@ file:"music/safe in your arms.mp3"
 },
 {
 name:"The Only Exception",
-file:"music/Paramore - The Only Exception.mp3"
+file:"music/paramore - the only exception.mp3"
 },
 {
 name:"Always",
-file:"music/Daniel Caesar - Always.mp3"
+file:"music/daniel caesar - always.mp3"
 },
 {
 name:"I Love You",
-file:"music/Fontaines D.C. - I Love You.mp3"
+file:"music/fontaines d.c. - i love you.mp3"
 },
 {
 name:"Você É Meu Lar",
-file:"music/Você é Meu Lar.mp3"
+file:"music/você é meu lar.mp3"
 }
 ];
 
