@@ -78,6 +78,10 @@ file:"music/fontaines d.c. - i love you.mp3"
 {
 name:"Você É Meu Lar",
 file:"music/você é meu lar.mp3"
+},
+{
+name:"Just The Way You Are",
+file:"music/just the way you are.mp3"
 }
 ];
 
